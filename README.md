@@ -56,7 +56,7 @@ Create a *remote repository* for this project on the service of your choice.
 Grab its address (e.g. *`https://github.com/<my-org>/my-proj.git`*) and push the *local repo* to the *remote*.
 ```bash
 git remote add origin <repo-address>
-git push -u origin master
+git push -f origin master
 ```
 ## Install npm packages
 
